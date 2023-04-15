@@ -12,13 +12,16 @@ output_str = ""
 # Create a for loop with range of user's length input
 for i in range (len(user_input)):
 
-# Use if-else to check each character written by the user
+# Use if-elif-else to check each character written by the user
 
 
 #   if "*" change to "a"
     if user_input [i] == "*":
         output_str += "a"
 
+#   if "&" change to "e"
+    elif user_input [i] == "&":
+        output_str += "e"
     
 # If the character is not a punctuation then proceed to else
     else:
