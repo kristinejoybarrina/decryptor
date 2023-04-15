@@ -7,7 +7,12 @@
 user_input = str (input ("Input a string: "))
 
 # Create a variable that has empty strings
+output_str = ""
+
 # Create a for loop with range of user's length input
+for i in range (len(user_input)):
+    print ("it's working!")
+
 # Use if-elif-else to check each character written by the user
 # Replace the string punctuation with the equivalent vowels and add each character using +=
 # If the character is not a punction then proceed to else
