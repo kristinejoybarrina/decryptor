@@ -10,6 +10,14 @@ from termcolor import colored
 from colorama import Style, Back
 from tkinter import *
 
+# Print a notice message that the program will decrypt a code
+# Style the texts using pyfiglet
+notice_message = Figlet (font = "standard")
+
+# Style the texts using colorama
+print (colored (notice_message.renderText("DECRYPT IT!"), "yellow"))
+
+
 # Let the user input a string
 user_input = str (input ("Input a string: "))
 
