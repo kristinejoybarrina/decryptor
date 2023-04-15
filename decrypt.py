@@ -22,6 +22,10 @@ for i in range (len(user_input)):
 #   if "&" change to "e"
     elif user_input [i] == "&":
         output_str += "e"
+        
+#   if "#" change to "i"
+    elif user_input [i] == "#":
+        output_str += "i"   
     
 # If the character is not a punctuation then proceed to else
     else:
