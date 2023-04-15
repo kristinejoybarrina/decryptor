@@ -19,7 +19,7 @@ print (colored (notice_message.renderText("DECRYPT IT!"), "yellow"))
 
 
 # Let the user input a string
-user_input = str (input ("Input a string: "))
+user_input = str (input ( Back.WHITE + "\033[1m" + "Input a string:" + Style.RESET_ALL + " "))
 
 # Create a variable that has empty strings
 output_str = ""
