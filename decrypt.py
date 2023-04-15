@@ -30,6 +30,10 @@ for i in range (len(user_input)):
 #   if "+" change to "o"
     elif user_input [i] == "+":
         output_str += "o"
+ 
+ #   if "!" change to "u"
+    elif user_input [i] == "!":
+        output_str += "u"
     
 # If the character is not a punctuation then proceed to else
     else:
