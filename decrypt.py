@@ -3,6 +3,13 @@
 
 # PSEUDOCODE
 
+# initialize python modules
+
+from pyfiglet import Figlet
+from termcolor import colored
+from colorama import Style, Back
+from tkinter import *
+
 # Let the user input a string
 user_input = str (input ("Input a string: "))
 
