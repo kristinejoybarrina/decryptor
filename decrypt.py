@@ -54,8 +54,6 @@ for i in range (len(user_input)):
     else:
         output_str += user_input [i]
 
-print (output_str)
-
 # Reassign the variable output_str to decrypt_code
 decrypt_code = output_str
 
@@ -66,5 +64,10 @@ win = Tk ()
 # Create a title for window
 win.title ("Decrypted Code")
 win.geometry ("800x250")
+
+# Style the window
+decrypt_window = Entry (win, justify = "center", width = 50, bg = "yellow", font = ("Arial", 15, "bold"))
+decrypt_window.insert (0, decrypt_code)
+decrypt_window.pack (padx = 100, pady = 100)
 
 win.mainloop ()
