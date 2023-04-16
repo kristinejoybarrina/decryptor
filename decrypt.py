@@ -55,3 +55,8 @@ for i in range (len(user_input)):
         output_str += user_input [i]
 
 print (output_str)
+
+# Reassign the variable output_str to decrypt_code
+decrypt_code = output_str
+
+# Display the output using tkinter that generates a window
