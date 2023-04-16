@@ -60,3 +60,11 @@ print (output_str)
 decrypt_code = output_str
 
 # Display the output using tkinter that generates a window
+# Create the winder using tkinter instance
+win = Tk ()
+
+# Create a title for window
+win.title ("Decrypted Code")
+win.geometry ("800x250")
+
+win.mainloop ()
