@@ -6,7 +6,7 @@ If first time using the modules, install it by typing "pip3 install [insert name
 1. pyfiglet
 2. termcolor
 3. colorama 
-4. tkinteri
+4. tkinter
 
 # How to upload program to github using github?
 Use these gitbash commands:
